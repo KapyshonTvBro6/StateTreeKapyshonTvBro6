@@ -54,7 +54,7 @@ void AShooterPlayerController::SetupInputComponent()
 
 			} else {
 
-				UE_LOG(LogStateTree, Error, TEXT("Could not spawn mobile controls widget."));
+				UE_LOG(LogStateTreeProject, Error, TEXT("Could not spawn mobile controls widget."));
 
 			}
 		}
@@ -68,7 +68,7 @@ void AShooterPlayerController::SetupInputComponent()
 
 		} else {
 
-			UE_LOG(LogStateTree, Error, TEXT("Could not spawn bullet counter widget."));
+			UE_LOG(LogStateTreeProject, Error, TEXT("Could not spawn bullet counter widget."));
 
 		}
 	}

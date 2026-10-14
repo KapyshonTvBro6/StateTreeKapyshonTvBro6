@@ -34,7 +34,7 @@ void AStateTreePlayerController::BeginPlay()
 
 		} else {
 
-			UE_LOG(LogStateTree, Error, TEXT("Could not spawn mobile controls widget."));
+			UE_LOG(LogStateTreeProject, Error, TEXT("Could not spawn mobile controls widget."));
 
 		}
 

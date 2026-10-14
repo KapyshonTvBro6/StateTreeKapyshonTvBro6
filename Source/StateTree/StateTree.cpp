@@ -5,4 +5,4 @@
 
 IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, StateTree, "StateTree" );
 
-DEFINE_LOG_CATEGORY(LogStateTree)
+DEFINE_LOG_CATEGORY(LogStateTreeProject)

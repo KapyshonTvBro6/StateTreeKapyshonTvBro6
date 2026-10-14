@@ -1,0 +1,30 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Cover AI Editor Repair",
+  "Description": "Editor-only utilities for repairing StateTree bindings and Blueprint nodes. No runtime dependencies.",
+  "Category": "Editor",
+  "EnabledByDefault": true,
+  "Plugins": [
+    {
+      "Name": "StateTree",
+      "Enabled": true
+    },
+    {
+      "Name": "PropertyBindingUtils",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayStateTree",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "CoverAudit",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ]
+}

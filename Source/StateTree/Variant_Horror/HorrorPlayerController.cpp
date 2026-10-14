@@ -82,7 +82,7 @@ void AHorrorPlayerController::SetupInputComponent()
 
 			} else {
 
-				UE_LOG(LogStateTree, Error, TEXT("Could not spawn mobile controls widget."));
+				UE_LOG(LogStateTreeProject, Error, TEXT("Could not spawn mobile controls widget."));
 
 			}
 

@@ -1,0 +1,2 @@
+using UnrealBuildTool;
+public class CoverAudit : ModuleRules { public CoverAudit(ReadOnlyTargetRules Target):base(Target) { PCHUsage=PCHUsageMode.UseExplicitOrSharedPCHs; PublicDependencyModuleNames.AddRange(new[]{"Core","CoreUObject","Engine","StateTreeModule","BlueprintGraph","GameplayStateTreeModule"}); PrivateDependencyModuleNames.AddRange(new[]{"UnrealEd","StateTreeEditorModule","PropertyBindingUtils"}); } }
